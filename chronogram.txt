@@ -1,0 +1,6 @@
+Chronogram of the project:
+06/11/2019 10:15 am :- Project assignment
+06/11/2019 10:20 am :- Read throught the requirements for the project using tools, APIS required, 
+and definitions pf the new terminologies needed for the project
+06/11/2019 10:35 am :- Installation of jquery, yarn and setting up of the project
+06//1/2019 10:45 am :- Read again through the requirements and initialize  GIT. Download the required libraries
