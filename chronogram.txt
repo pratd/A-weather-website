@@ -1,8 +1,10 @@
 Chronogram of the project:
 06/11/2019 10:15 am :- Project assignment
 06/11/2019 10:20 am :- Read throught the requirements for the project using tools, APIS required, 
-and definitions of the new terminologies needed for the project
+                    and definitions of the new terminologies needed for the project
 06/11/2019 10:35 am :- Installation of jquery, yarn and setting up of the project
-06//1/2019 10:45 am :- Read again through the requirements and initialize  GIT. Download the required libraries
-06//1/2019 12:00 pm :- Made an API account, have the rudimentary design of the website planned. Details of requirements for 
-the project has been completely analyzed. Project planner is designed for the major steps
+06/11/2019 10:45 am :- Read again through the requirements and initialize  GIT. Download the required libraries
+06/11/2019 12:00 pm :- Made an API account, have the rudimentary design of the website planned. Details of requirements for 
+                    the project has been completely analyzed. Project planner is designed for the major steps
+06/11/2019 3:00 pm :- Starting to put the dv element on top of main page which will be used 
+                    as a city search for weather API
