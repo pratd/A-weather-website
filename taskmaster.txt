@@ -1,0 +1,2 @@
+This file consists of the priority list for the tasks to be performed.
+1. Priority 1:- Use the previous web template and make sure the API's work. Estimated time: 1 day

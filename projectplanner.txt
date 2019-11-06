@@ -1,0 +1,5 @@
+The following file consists of  the project planning.
+06/11/2019 12:00pm :- Design tht HTML and CSS part of the web page using the previous webpage template
+06/11/2019 3:00pm :- Call the API to make a change in the div element
+06/11/2019 6:00 pm:- Finish calling the API using user JAvascript query to call changes to the
+ webpage like the weather information
