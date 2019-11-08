@@ -3,3 +3,7 @@ The following file consists of  the project planning.
 06/11/2019 3:00pm :- Call the API to make a change in the div element
 06/11/2019 6:00 pm:- Finish calling the API using user JAvascript query to call changes to the
  webpage like the weather information
+07/11/2019 9:00 am :- Change elements inside the html based on the call request
+07/11/2019 12:00 pm :- finish the call requests and hide the API key
+07/11/2019 3:00pm :- project the temperature and wind values and also show the map
+07/11/2019 6:00pm :- Finish the website with jquery

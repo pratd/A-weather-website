@@ -1,0 +1,24 @@
+{
+  "name": "a-weather-website",
+  "version": "1.0.0",
+  "description": "This application uses weather apis to generate user friendly weather forecasts. Further details on the toolkits used is follows:",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratd/A-weather-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratd/A-weather-website/issues"
+  },
+  "homepage": "https://github.com/pratd/A-weather-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-minify": "^3.1.0"
+  }
+}

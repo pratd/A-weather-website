@@ -8,3 +8,5 @@ Chronogram of the project:
                     the project has been completely analyzed. Project planner is designed for the major steps
 06/11/2019 3:00 pm :- Starting to put the dv element on top of main page which will be used 
                     as a city search for weather API
+
+07/11/2019 10:30 am :- Get the API call and use it change element inside the html page

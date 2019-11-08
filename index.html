@@ -15,7 +15,13 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
         crossorigin="anonymous"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css"/> 
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" 
+        crossorigin="anonymous"></script>
+        <!--javascript queries-->
+        <script src="./public/js/myjavascript_library-min.js"></script>
     </head>
     <body>
         <div class="container-fluid">
@@ -58,22 +64,73 @@
             </nav>
         </div>
         <div class="container-fluid pl-0 pr-0">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col0sm-12">
+            <div class="row no-gutters">
+                <div class="col-lg-12 col-md-12 col-sm-12 ">
+                        <div class="generic">
+                            <div class="input-group mb-3 active-pink">
+                                <input type="text" class="form-control fontuse fontsizebig" placeholder="Search..." 
+                                aria-label="Recipient's username" aria-describedby="basic-addon2" id="city" name="city">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary dropbtn fontuse fontsizebig" id="submitweather"type="button">Submit</button>
+                                </div>
+                            </div>
+                            
+                            <!--<form class="form-inline md-form form-sm active-pink-2 mt-2" style="width:500px">
+                                <input class="form-control form-control-sm mr-3 w-75 fontuse fontsizeextrabig" style="width:300px" type="text" placeholder="Search"
+                                    aria-label="Search" id="city" name="city">
+                                <span class="input-group-addon">
+                                    <button type="submit" class="btn btn-default dropbtn" id="submitweather">
+                                        <span class="glyphicon glyphicon-search fontuse"> Submit</span>
+                                    </button>
+                                </span>
+                            </form>-->
+                        </div>
+                        <div class="generic1">
+                            <h3 class="text-center fontuse fontweightheavy textcolorwhite fontisizebig">Enter city name</h3>
+                        </div>
+                        <div class="generic-error">
+                            <span class="generic-error fontuse fontweightheavy"id="error"></span>
+                        </div>
+                            
+                        
                         <div id="carouselgeneric" class="carousel slide" data-ride="carousel">                            
-                            <div class="carousel-inner">
+                            <div class="carousel-inner peopleCarouselImg">
                                 <div class="carousel-item peopleCarouselImg active">
-                                    <img class="img-fluid d-block w-100" src="image1.jpg" alt="First slide">
+                                    <img class="img-fluid d-block w-100" src="imagebg1.jpg" alt="First slide">
                                 </div>
                                 <div class="carousel-item peopleCarouselImg">
-                                    <img class="img-fluid d-block w-100" src="image2.jpg" alt="Second slide">
+                                    <img class="img-fluid d-block w-100" src="imagebg2.jpg" alt="Second slide">
                                 </div>
                                 <div class="carousel-item peopleCarouselImg">
-                                    <img class="img-fluid d-block w-100" src="image3.jfif" alt="Third slide">
+                                    <img class="img-fluid d-block w-100" src="imagebg3.jpg" alt="Third slide">
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pl-0 pr-0 featurebody" id="details" style="display: none;">
+            <div class="row">
+                <div class="col-lg-4 Box " id ="tempbox">
+                    <div class="text-center">
+                     <image id="my_image" src="" alt="weather icon"></image>
+                     <div class="falsespace"></div>
+                     <h3 class="text-center fontuse fontsizeverybig fontweightbold ">Today</h3>
+                     <div class="falsespace">
+                     </div>
+                     <p id="Temperaturereading" class="fontuse fontsizeverybig"></p>
+                     <div class="falsespace"></div>
+                        <button class="button tempbtn fontuse">Day by Day</button>
+                    </div>
+                </div>
+                <div class="col-lg-7 d-none d-md-block">
+                    <h4 class="fontuse fontsizebig text-center paragraph">Today the 
+                        minimum temperature is <span id="mintemp" class="textcolorwhite"></span> and the maximum 
+                        temperature is <span id="maxtemp" class="textcolorwhite"></span>. Cloud cover of 
+                        around <span id="cloud" class="textcolorwhite"></span> with wind speed of 
+                        <span id="windspeed" class="textcolorwhite"></span>. Expect <span id="weatherdesc"></span> today.
+                        Have a great day! </h4>
                 </div>
             </div>
         </div>

@@ -131,3 +131,104 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: orange;}
+.dropbtn {
+    background-color: #ffe34d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+  }
+div#carouselgeneric {
+    position:relative;
+}
+
+div.generic {
+    position:absolute;
+    z-index:9999999;
+    top:50%; 
+    left:38%; 
+    right:auto; 
+    bottom:auto; 
+}
+div.generic1 {
+    position:absolute;
+    z-index:9999999;
+    top:47%; 
+    left:38%; 
+    right:auto; 
+    bottom:auto; 
+}
+div.generic-error{
+    position:absolute;
+    z-index:9999999;
+    top:60%; 
+    left:38%; 
+    right:auto; 
+    bottom:auto; 
+    color:Red;
+}
+.peopleCarouselImg img {
+    width:auto;
+    height: 750px;
+    max-height: 750px;
+    width:auto;
+}
+.carousel-inner .carousel.item img{
+    height:750px;
+    background-size:cover;
+    background-position: center center;
+    width: auto;
+}
+.active-pink{
+    border-radius:12px;
+}
+.active-pink input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid orange;
+    box-shadow: 0 1px 0 0 orangered;
+ }
+    .active-pink input[type=text] {
+    border-bottom: 1px solid orange;
+    box-shadow: 0 1px 0 0 orangered;
+}
+    .active-pink .fa, .active-pink-2 .fa {
+    color: black;
+}
+.featurebody {
+    background: url(backgroundfeature.jpg);
+    color: #000305;
+    text-align: left;
+    background-size:cover;
+}
+.Box{ 
+    display: inline-block; 
+    width: 320x;
+    padding: 36px;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    background-color: white;
+    border-radius: 12px;                
+    margin-left:2%
+}
+#my_image{
+    width:100px;
+}
+.falsespace{
+    height:50px;
+}
+#tempbox{
+    background-color: #DCDCDC;
+}
+.tempbtn {
+    background-color: antiquewhite;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+}
+.paragraph{
+    margin: 170px 0;
+    padding: 0 0 0 80px;
+    color:#80FFC0;
+}
