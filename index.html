@@ -21,7 +21,8 @@
         <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" 
         crossorigin="anonymous"></script>
         <!--javascript queries-->
-        <script src="./public/js/myjavascript_library-min.js"></script>
+        <!--<script src="./public/js/myjavascript_library-min.js"></script>-->
+        <script src="./public/js/myjavascript_vanilla-min.js"></script>
     </head>
     <body>
         <div class="container-fluid">
@@ -36,17 +37,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link fontuse textcolorblack" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link textcolorblack fontuse" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fontuse textcolorblack" href="#">Pricing</a>
+                            <a class="nav-link fontuse textcolorblack" href="#">
+                                Home <span class="sr-only">(current)</span>
+                            </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle dropdown fontuse" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">More
+                            <a class="nav-link dropdown-toggle dropdown fontuse" 
+                            id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" href="#">More
                             </a>
                             <div class="dropdown-menu dropdown-primary dropdown-content" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item fontuse" href="#">Action</a>
@@ -69,9 +67,9 @@
                         <div class="generic">
                             <div class="input-group mb-3 active-pink">
                                 <input type="text" class="form-control fontuse fontsizebig" placeholder="Search..." 
-                                aria-label="Recipient's username" aria-describedby="basic-addon2" id="city" name="city">
+                                aria-label="Recipient's username" id="city" name="city">
                                 <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary dropbtn fontuse fontsizebig" id="submitweather"type="button">Submit</button>
+                                    <button class="btn btn-outline-secondary dropbtn fontuse fontsizebig" id="submitweather" type="button">Submit</button>
                                 </div>
                             </div>
                             
@@ -89,7 +87,7 @@
                             <h3 class="text-center fontuse fontweightheavy textcolorwhite fontisizebig">Enter city name</h3>
                         </div>
                         <div class="generic-error">
-                            <span class="generic-error fontuse fontweightheavy"id="error"></span>
+                            <span class="generic-error fontuse fontweightheavy" id="error"></span>
                         </div>
                             
                         
@@ -106,7 +104,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -114,7 +112,7 @@
             <div class="row">
                 <div class="col-lg-4 Box " id ="tempbox">
                     <div class="text-center">
-                     <image id="my_image" src="" alt="weather icon"></image>
+                     <img id="my_image" src="#" alt="weather icon">
                      <div class="falsespace"></div>
                      <h3 class="text-center fontuse fontsizeverybig fontweightbold ">Today</h3>
                      <div class="falsespace">
@@ -133,6 +131,12 @@
                         Have a great day! </h4>
                 </div>
             </div>
+        </div>
+        <div class="container-fluid" style="display:none">
+            <div id="log"></div>
+        </div>
+        <div class="container-fluid" style="display:none">
+            <div id="log3">Nothing to show yet</div>
         </div>
     </body>
 </html>
