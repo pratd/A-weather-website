@@ -1,4 +1,4 @@
-const weatherMapKey = 'c11fb4df334457589dd537b8b1dd9cbd',
+const weatherMapKey = '',
 forecastUrl = 'http://api.openweathermap.org/data/2.5/forecast?',
 weatherUrl  = 'http://api.openweathermap.org/data/2.5/weather?',
 areaUrl     = 'http://api.openweathermap.org/data/2.5/find?'
